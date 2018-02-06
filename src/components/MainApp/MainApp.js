@@ -40,7 +40,7 @@ class MainApp extends React.PureComponent {
     return (
       <div className={styles.mainApp}>
         <MuleSoftHero
-          message="Hello everyone!"
+          message="App updated with no cache invalidation"
         />
         <div className={styles.content}>
           <ApplicationsTable
